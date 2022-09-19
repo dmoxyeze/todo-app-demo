@@ -23,7 +23,7 @@ const TodoList = () => {
         todos.map((todo) => <TodoItem todo={todo} key={todo._id} />)
       ) : (
         <div className="w-full p-4 bg-white mb-3 shadow relative rounded">
-          You Todo list is empty.
+          Your Todo list is empty.
         </div>
       )}
     </Container>
